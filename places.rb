@@ -32,7 +32,11 @@ loop do
   answer = gets.chomp.downcase
   break if answer == "n" || answer != "y"
   cities(dail_book)
+
+  # puts "Enter your city : "
   print "Enter your city : "
+
+
   my_city = gets.chomp.downcase
   if dail_book.include?(my_city)
 
